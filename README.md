@@ -28,6 +28,10 @@ define('DB_NAME', 'your_database');
 
 Layihədə istifadə olunan bütün PHP asılılıqlarını (PhpSpreadsheet, Dompdf, PHPMailer) yükləmək üçün:
 
+```
+composer install
+```
+
 ## 🗄️ 2. Verilənlər Bazasının Scheması
 
 Lazım olan users cədvəlini yaratmaq üçün aşağıdakı SQL skriptindən istifadə edin:
