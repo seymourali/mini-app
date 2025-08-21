@@ -52,10 +52,12 @@ PRIMARY KEY (`id`)
 Form vasitəsilə yeni istifadəçi qeydiyyatdan keçdikdə, sistem adminə e-poçt bildirişi göndərir.
 Bunun işləməsi üçün src/config/database.php faylında SMTP ayarlarını əlavə edin:
 
+```
 define('SMTP_HOST', 'smtp.example.com');
 define('SMTP_USER', 'your-email@example.com');
 define('SMTP_PASS', 'your-password');
 define('ADMIN_EMAIL', 'admin@example.com');
+```
 
 ## 🌐 4. Tətbiqə Giriş
 
